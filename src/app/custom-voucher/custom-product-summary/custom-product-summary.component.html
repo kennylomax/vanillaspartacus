@@ -1,0 +1,16 @@
+<p>custom-product-summary works!</p>
+<ng-container *ngIf="product$ | async as product">
+  <h1>Product Info: {{product.summary}}</h1>
+</ng-container>
+ 
+ 
+<ng-container *ngIf="user$ | async as user">
+  <h1>User info: {{user.name}}</h1>
+</ng-container>
+ 
+<ng-container *ngIf="voucher">
+  <div class="alert alert-success">
+    Voucher Info : {{voucher[0].code}}
+  </div>
+</ng-container>
+

@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    // Angular Language Service
+    "Angular.ng-template",
+    // The ng lint command uses TSLint under the hood.
+    "ms-vscode.vscode-typescript-tslint-plugin",
+    // Prettier - Code formatter
+    "esbenp.prettier-vscode"
+  ]
+}
