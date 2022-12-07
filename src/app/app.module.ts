@@ -9,6 +9,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CustomVoucherModule } from "./custom-voucher/custom-voucher.module";
 import { SpartacusModule } from './spartacus/spartacus.module';
+import { GoogleMapsModule } from '@angular/google-maps'
+
 
 @NgModule({
   declarations: [
@@ -29,6 +31,7 @@ import { SpartacusModule } from './spartacus/spartacus.module';
       registrationStrategy: 'registerWhenStable:30000'
     }),
     BrowserTransferStateModule,
+    GoogleMapsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  occBaseUrl: '<occ base url>'
+  occBaseUrl: 'https://sap-commerce-cloud-2105.ingress.20221205a.klxtrial.shoot.canary.k8s-hana.ondemand.com'
 };
 
 /*
